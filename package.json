@@ -1,0 +1,31 @@
+{
+  "name": "@mind-elixir/export-markdown",
+  "version": "3.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/export-markdown.umd.cjs",
+  "module": "./dist/export-markdown.js",
+  "exports": {
+    ".": {
+      "import": "./dist/export-markdown.js",
+      "require": "./dist/export-markdown.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "mind-elixir": "^4.0.5",
+    "vite": "^3.0.0"
+  },
+  "peerDependencies": {
+    "mind-elixir": "^4.0.5"
+  },
+  "dependencies": {
+    "file-saver": "^2.0.5"
+  }
+}
