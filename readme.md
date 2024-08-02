@@ -1,4 +1,5 @@
 基于export-html修改的export-markdown
+官方有markdown的输出方法，但是没有保存到文件，所以又写了一个接口data2markdownOfficial
 # @mind-elixir/export-markdown
 
 `@mind-elixir/export-markdown` is a plugin of [mind-elixir-core](https://github.com/ssshooter/mind-elixir-core). You can use `@mind-elixir/export-markdown` to export a `.md` file.
@@ -15,6 +16,7 @@ npm i @mind-elixir/export-markdown file-saver
 
 ```javascript
 import MindElixir from 'mind-elixir'
+//或者data2markdownOfficial
 import exportmarkdown from '@mind-elixir/export-markdown'
 
 const mind = new MindElixir(options)
